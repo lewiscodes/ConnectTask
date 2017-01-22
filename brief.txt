@@ -1,0 +1,11 @@
+Create three different coloured blocks that we can click and drag (with the mouse)
+
+Create a simple ajax request that will get some text from the server and add it to the bottom of the page
+
+Create a responsive image gallery that switches assets depending on snap-point. If you use any other lib you will have explain you choice
+
+Deliverables:
+
+1. A zip file containing all the code
+2. Instructions on how to set these up on a web server or any tool / framework you use
+3. One page worth of good javascript principles e.g global variables are bad becasue...

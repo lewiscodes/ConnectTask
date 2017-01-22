@@ -1,0 +1,1 @@
+var $ajaxText=$('<p id="ajaxText"></p>');$("#requestButton").click(function(){$.ajax({url:"/ajaxRequest",type:"GET",success:function(a){$ajaxText.text(a),$("body").append($ajaxText)}})});

@@ -1,0 +1,82 @@
+body {
+    width: 650px;
+}
+
+/******************************
+****** Drag and Drop CSS ******
+******************************/
+
+#dragAndDrop {
+    display: inline-block;
+}
+
+.box {
+    border: 3px solid #261c4e;
+    border-radius: 35px;
+    color: #261c4e;
+    float: left;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.box.over {
+    border: 3px dashed #261c4e;
+}
+
+/******************************
+****** AJAX Request CSS  ******
+******************************/
+
+#ajaxRequest {
+    margin-top: 2em;
+    display: block;
+}
+
+p {
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#requestButton {
+    background-color: #d5f4e6;
+    border: 1px solid #d5f4e6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+    color: #261c4e;
+    display: block;
+    margin: auto;
+    padding: 15px 15px;
+}
+
+#requestButton:hover {
+    box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+}
+
+#ajaxText {
+    color: #261c4e;
+}
+
+/******************************
+****** Snap Point Gallery *****
+******************************/
+
+#snapPointGallery {
+    height: 400px;
+    margin: auto;
+    margin-top: 2em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: mandatory;
+    white-space: nowrap;
+    width: 400px;
+}
+
+#snapPointGallery img {
+    height: 100%;
+    width: 100%;
+}
